@@ -1,5 +1,7 @@
 import bcryptjs from "bcryptjs";
 import crypto from "crypto";
+import dotenv from "dotenv";
+dotenv.config();
 
 import { generateTokenAndSetCookie } from "../utils/generateTokenAndSetCookie.js";
 import {
